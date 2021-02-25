@@ -1,4 +1,4 @@
-#number of ways in which n number of people will go to a party 
+#number of ways in which n number of people will go to a party with 2 being the maximum number of people gong together
 def prob(n):
     if n==1:
         return 1
