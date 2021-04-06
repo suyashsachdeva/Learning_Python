@@ -29,7 +29,7 @@ for x in range(no):
 
 
     print(li)
-dat1.info()
+"""dat1.info()"""
 
 
 """       
