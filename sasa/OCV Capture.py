@@ -1,6 +1,6 @@
-import cv2
+import cv2 
 import numpy as np
-
+"""
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -11,3 +11,12 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+"""
+"""
+#samj nahi aa raha ki kyu image show nahi kar raha 
+img=cv2.imread('936378.jpg')
+cv2.imshow('electrothon',img)
+cv2.waitKey(0) 
+"""
+
+
