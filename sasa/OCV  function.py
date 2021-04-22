@@ -24,8 +24,8 @@ blur = cv.GaussianBlur(frame, (3,3), cv.BORDER_DEFAULT)
 
 
 #3. Edges in a image
-canny=cv.Canny(frame, 125, 175)
-#cv.imshow('Canny Edges', canny)
+canny=cv.Canny(frame, 200, 500)
+cv.imshow('Canny Edges', canny)
 
 #3.1 Reduce the number of edges
 cannyb=cv.Canny(blur, 125, 175)
